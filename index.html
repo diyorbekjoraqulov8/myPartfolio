@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bexruz Portfolio Website</title>
+  <!-- --------- Scroll Reveal Library --------- -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- --------- Swiper Library --------- -->
+  <!-- <link rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <!-- --------- Unicons Icons --------- -->
+  <link rel="stylesheet"
+    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <!-- --------- CSS Files --------- -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/import.css">
+</head>
+
+<body>
+  
+  <div class="overlay"></div>
+
+  <header>
+    <!-- --------- Navbar --------- -->
+    <nav class="container">
+      <a href="#" class="logo">Portf<span>olio.</span></a>
+      <div class="links">
+        <ul>
+          <li>
+            <a href="#home" class="nav-link" id="nav-link__one">Home</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link" id="nav-link__two">Servise</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link" id="nav-link__thre">Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link" id="nav-link__four">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" id="nav-link__five">Contact</a>
+          </li>
+        </ul>
+      <div class="select-box">
+           
+          <div class="options-container">
+              <div class="option" id="option__one">
+                  <input type="radio" class="radio" id="automobiles" name="category">
+                  <label for="automobiles">Uz</label>
+              </div>
+              <div class="option" id="option__two">
+                  <input type="radio" class="radio" id="film" name="category">
+                  <label for="film">En</label>
+              </div>
+              <div class="option" id="option__thre">
+                  <input type="radio" class="radio" id="science" name="category">
+                  <label for="science">Ru</label>
+              </div>
+              
+          </div>
+          <div class="selected">Uz</div>
+      </div>
+        <i class="uil uil-moon toggle-btn"></i>
+      </div>
+      <div class="navMedia">
+        <div class="select-box">
+           
+          <div class="options-container optionsTwo-container">
+              <div class="option optionTwo">
+                  <input type="radio" class="radio" name="category">
+                  <label for="automobiles">Uz</label>
+              </div>
+              <div class="option optionTwo">
+                  <input type="radio" class="radio" name="category">
+                  <label for="film">En</label>
+              </div>
+              <div class="option optionTwo">
+                  <input type="radio" class="radio" name="category">
+                  <label for="science">Ru</label>
+              </div>
+              
+          </div>
+          <div class="selected selectedTwo">Uz</div>
+      </div>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <!-- --------- Showcase Area Section --------- -->
+    <section class="showcase-area" id="home">
+      <img src="./assets/square1.png" class="shape square" alt="">
+      <div class="container">
+        <div class="showcase-info">
+          <h3 class="sub-heading" id="homeJob">Front End Developer</h3>
+          <h1 class="heading" id="homeName">Diyorbek Jo'raqulov</h1>
+          <p class="text" id="homeTitle">I am a freelance web developer. Let's work together.</p>
+          <div class="cta">
+            <a href="https://t.me/diyorbek_joraqulov" class="btn homeContact">Contact
+              me</a>
+            <a href="./assets/diyorCV.pdf" download class="btn
+              secondary-btn download">Download CV</a>
+          </div>
+        </div>
+        <div class="showcase-image">
+          <img src="./assets/myPhoto3-removebg-preview.png" class="person" alt="Bexruz">
+          <img src="./assets/circle1.png" class="shape circle" alt="">
+          <img src="./assets/dots.png" class="shape dots" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- --------- Services Section --------- -->
+    <section class="services section" id="services">
+      <img src="./assets/triangle.png" class="shape triangle">
+      <div class="container">
+        <div class="services-info">
+          <h3 class="sub-heading" id="myServise">My services</h3>
+          <h1 class="heading" id="headSer">Things I may do for my clients</h1>
+          <p class="text" id="textSer">Salom Men bilan Ishlasangiz Sizning Web saytingizni Mukammal yarataman. Ustunlik Jihatlarim Vue Js yordamida Reactive va Progressive muhitni yaratish </p>
+          <div class="milestones">
+            <div class="ml">
+              <h2 class="number"><span data-target="2">0</span>+</h2>
+              <h5>Years</h5>
+            </div>
+            <div class="ml">
+              <h2 class="number"><span data-target="79">0</span>+</h2>
+              <h5>Projects</h5>
+            </div>
+            <div class="ml">
+              <h2 class="number"><span data-target="95">0</span>+</h2>
+              <h5>Clients</h5>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a href="https://www.instagram.com/diyorbek.web/" class="btn serContact">Contact me</a>
+            <a href="./assets/diyorCV.pdf" download class="btn
+              secondary-btn serDownload">Download CV</a>
+            <!-- <a href="./assets/bexruzCV.pdf" download="./assets/bexruzCV.pdf" class="btn">Hire me</a> -->
+          </div>
+        </div>
+        <div class="services-grid">
+          <div class="srv-card">
+            <div class="card-desc servesOne">
+              <h3>Zamonaviy Framework</h3>
+              <p class="text">
+                Java Script dasturlash tilining eng tezkor hisoblangan frameworki bu Vue Js. Va men bu sohada 2 yil ishlaganman
+              </p>
+            </div>
+
+            <a href="#" class="btn secondary-btn">Learn more</a>
+          </div>
+          <div class="srv-card">
+            <div class="card-desc servesTwo">
+              <h3>Adaptative</h3>
+              <p class="text">
+                Eng Oxirgi texnalogiyalar yordamida Sahifani Har qanday Muhit va Sharoitga tayyor qilish asosiy ishim.
+              </p>
+            </div>
+
+            <a href="#" class="btn secondary-btn">Learn more</a>
+          </div>
+          <div class="srv-card">
+            <div class="card-desc servesThre">
+              <h3>Router</h3>
+              <p class="text">
+                Single-page application yani sahifani yangilamasdan kerakli tarkibni serverdan dinamik ravishda yuklash. Bunday ilovalar tez ishlaydi va serverni kamroq yuklaydi
+              </p>
+            </div>
+
+            <a href="#" class="btn secondary-btn">Learn more</a>
+          </div>
+          <div class="srv-card">
+            <div class="card-desc servesFour">
+              <h3>Chiroyli Dizayn</h3>
+              <p class="text">
+                Figma va Photoshop dagi dizayn orqali chiroyli Sayt yaratish
+              </p>
+            </div>
+
+            <a href="#" class="btn secondary-btn">Learn more</a>
+          </div>
+
+          <img src="./assets/square1.png" alt="" class="shape square">
+        </div>
+      </div>
+    </section>
+    <!-- --------- Skills Section --------- -->
+    <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+      <span class="one"></span>
+      <span class="two"></span>
+      <span class="three"></span>
+    </button>
+<main>
+  <article class="container">
+    <section class="skills" id="skills">
+
+      <div class="skills-content section-content">
+
+        <p class="section-subtitle subTitle">My skills</p>
+
+        <h2 class="h3 section-title mainTitle">What My Programming Skills Included?</h2>
+
+        <p class="section-text mainText">
+          I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+          and time
+          with those technologies.
+        </p>
+
+        <div class="skills-toggle" data-toggle-box>
+          <button class="skill__toggle-btn active" data-toggle-btn>Skills</button>
+          <button class="skill__toggle-btn" data-toggle-btn>Tools</button>
+        </div>
+
+      </div>
+
+      <div class="skills-box" data-skills-box>
+
+        <ul class="skills-list">
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">HTML5</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/html5.png" alt="HTML5 logo">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">CSS3</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/css3.png" alt="CSS3 logo">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">JavaScript</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/javascript.png" alt="JavaScript logo">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Vue</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/vue.png" alt="Vue logo">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Vue Router</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/vue-router.png" style="width:100%" alt="Vue logo">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Vue X</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/vue-x.png" style="width:100%" alt="Vue logo">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Pinia</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/pinia.svg" style="width:50%; display: block; margin:0 auto;" alt="Vue logo">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Vite</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/vite.png" style="width:80%; display: block; margin:0 auto;" alt="Vue logo">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Firebase</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/firebase.png" alt="Firebase logo">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Bootstrap</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/bootstrap.png" alt="PugJs logo">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">SASS</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/sass.png" alt="SASS logo">
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="tools-list">
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Git</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/git.png" alt="Git logo">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">GitHub</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/gitHub.png" style="width: 100%;" alt="Git logo">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Npm</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/npm.png" alt="Npm logo">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">VS Code</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/vs-code.png" alt="VS Code logo">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Photoshop</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-card">
+              <div class="tooltip">Figma</div>
+
+              <div class="card-icon">
+                <img src="./assets/images/figma.png" style="width: 100%;" alt="Adobe XD logo">
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+  </article>
+</main>
+            <!-- --------- Portfolio Section --------- -->
+
+
+            <section class="portfolio section" id="portfolio">
+
+              <div class="modal">
+                <div class="modal-overlay"></div>
+                <div class="slider-wrap">
+                  <div class="prev-btn navigation">
+                    <i class="uil uil-angle-left-b"></i>
+                  </div>
+
+                  <div class="images">
+                    <img class="showImage" src="assets/port1.jpg">
+                    <img src="assets/port2.png">
+                    <img src="assets/port3.jpg">
+                    <img src="assets/port4.png">
+                    <img src="assets/port5.png">
+                    <img src="assets/port6.jpg">
+                  </div>
+                  <div class="next-btn navigation">
+                    <i class="uil uil-angle-right-b"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="portfolio-header">
+                  <div class="portfolio-title">
+                    <h3 class="sub-heading portfolioHeading">Porfolio</h3>
+                    <h1 class="heading portfolioTitle">Latest Projects</h1>
+                  </div>
+                  <div class="filter-btns">
+                    <button class="filter-btn dataAll" data-filter="all">All</button>
+                    <button class="filter-btn dataProduct" data-filter=".product">Product</button>
+                    <button class="filter-btn dataInteris" data-filter=".inter">Interacting</button>
+                    <button class="filter-btn dataApp" data-filter=".web">Web App</button>
+                  </div>
+                </div>
+                <div class="portfolio-gallery">
+                  <div class="mix prt-card inter">
+                    <div class="prt-image">
+                      <img src="./assets/port1.jpg" alt="">
+                      <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s">
+                          <i class="uil uil-search-plus"></i>
+                        </span>
+                        <a href="#" class="prt-icon" style="--i: 0.15s">
+                          <i class="uil uil-link-h"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="prt-desc">
+                      <h3>Olido interaction</h3>
+                      <a href="#" class="btn secondary-btn sm">Read more</a>
+                    </div>
+                  </div>
+                  <div class="mix prt-card product">
+                    <div class="prt-image">
+                      <img src="./assets/port2.png" alt="">
+                      <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s">
+                          <i class="uil uil-search-plus"></i>
+                        </span>
+                        <a href="#" class="prt-icon" style="--i: 0.15s">
+                          <i class="uil uil-link-h"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="prt-desc">
+                      <h3>Bexruz product design</h3>
+                      <a href="#" class="btn secondary-btn sm">Read more</a>
+                    </div>
+                  </div>
+                  <div class="mix prt-card web">
+                    <div class="prt-image">
+                      <img src="./assets/port3.jpg" alt="">
+                      <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s">
+                          <i class="uil uil-search-plus"></i>
+                        </span>
+                        <a href="#" class="prt-icon" style="--i: 0.15s">
+                          <i class="uil uil-link-h"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="prt-desc">
+                      <h3>Meta web design</h3>
+                      <a href="#" class="btn secondary-btn sm">Read more</a>
+                    </div>
+                  </div>
+                  <div class="mix prt-card web">
+                    <div class="prt-image">
+                      <img src="./assets/port4.png" alt="">
+                      <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s">
+                          <i class="uil uil-search-plus"></i>
+                        </span>
+                        <a href="#" class="prt-icon" style="--i: 0.15s">
+                          <i class="uil uil-link-h"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="prt-desc">
+                      <h3>TwitUp web design</h3>
+                      <a href="#" class="btn secondary-btn sm">Read more</a>
+                    </div>
+                  </div>
+                  <div class="mix prt-card inter">
+                    <div class="prt-image">
+                      <img src="./assets/port5.png" alt="">
+                      <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s">
+                          <i class="uil uil-search-plus"></i>
+                        </span>
+                        <a href="#" class="prt-icon" style="--i: 0.15s">
+                          <i class="uil uil-link-h"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="prt-desc">
+                      <h3>Bekha interaction</h3>
+                      <a href="#" class="btn secondary-btn sm">Read more</a>
+                    </div>
+                  </div>
+                  <div class="mix prt-card web">
+                    <div class="prt-image">
+                      <img src="./assets/port6.jpg" alt="">
+                      <div class="prt-overlay">
+                        <span class="prt-icon zoom-icon" style="--i: 0s">
+                          <i class="uil uil-search-plus"></i>
+                        </span>
+                        <a href="#" class="prt-icon" style="--i: 0.15s">
+                          <i class="uil uil-link-h"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="prt-desc">
+                      <h3>Bekha web design</h3>
+                      <a href="#" class="btn secondary-btn sm">Read more</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
+            <!-- --------- Testimonials Section --------- -->
+
+
+            <section class="testimonials section">
+              <div class="container">
+                <div class="section-background">
+                  <img src="./assets/images/image.svg" class="person" alt="">
+                  <img src="./assets/circle2.png" alt="" class="circle">
+                  <img src="./assets/square1.png" alt="" class="square">
+                </div>
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="client">
+                        <img src="./assets/testi1.png" alt="">
+                        <div class="client-info">
+                          <h4>Kelly Williams</h4>
+                          <h5>Executive Officer <a href="#">@ABEnergy</a></h5>
+                        </div>
+                      </div>
+
+                      <q class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quasi autem dolorem porro voluptas optio, libero
+                        maiores reiciendis error voluptatem nostrum, sapiente
+                        quam molestias iusto cumque numquam quibusdam
+                        accusantium. Asperiores, officia. Debitis iste
+                        voluptas
+                        animi doloremque.
+                      </q>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="client">
+                        <img src="./assets/testi2.png" alt="">
+                        <div class="client-info">
+                          <h4>Witold Gislenus</h4>
+                          <h5>CEO of <a href="#">@Eco_Focus</a></h5>
+                        </div>
+                      </div>
+
+                      <q class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quasi autem dolorem porro voluptas optio, libero
+                        maiores reiciendis error voluptatem nostrum, sapiente
+                        quam molestias iusto cumque numquam quibusdam
+                        accusantium. Asperiores, officia. Debitis iste
+                        voluptas
+                        animi doloremque.
+                      </q>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="client">
+                        <img src="./assets/testi3.png" alt="">
+                        <div class="client-info">
+                          <h4>Ben Dennis</h4>
+                          <h5>Software Engineer <a href="#">@Epic_Dev</a></h5>
+                        </div>
+                      </div>
+
+                      <q class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Quasi autem dolorem porro voluptas optio, libero
+                        maiores reiciendis error voluptatem nostrum, sapiente
+                        quam molestias iusto cumque numquam quibusdam
+                        accusantium. Asperiores, officia. Debitis iste
+                        voluptas
+                        animi doloremque.
+                      </q>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="testimonials-title">
+                  <h3 class="sub-heading guvoh">Testimonials</h3>
+                  <h1 class="heading klint">Hear from my happy clients</h1>
+                </div>
+              </div>
+            </section>
+
+            <!-- --------- Contact Section --------- -->
+            
+            <section class="contact section" id="contact">
+              <img src="./assets/triangle.png"  class="shape triangle">
+              <div class="container">
+                <img src="./assets/square2.png"  class="shape square">
+                <div class="contact-info">
+                  <h3 class="sub-heading aloqaLang">Contact</h3>
+                  <h1 class="heading letsLang">Let's work together</h1>
+                  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta mollitia praesentium officiis atque vero quibusdam.</p>
+                  <a href="mailto:diyorbekjoraqulov8@gmail.com" class="mail">diyorbekjoraqulov8@gmail.com <i class="uil uil-arrow-right"></i> </a>
+                </div>
+                <form action="index.html" class="contact-form">
+                  <h3 class="sendLang">Send me a message</h3>
+                  <input type="text" class="form-input" placeholder="Your Name" required>
+                  <input type="email" class="form-input" placeholder="Your Email" required>
+                  <textarea placeholder="Project Details" class="form-input" required></textarea>
+                  <input type="submit" value="Send" class="btn"> 
+                </form>
+              </div>
+            </section>
+  </main>
+
+  <footer>
+    <!-- --------- Footer --------- -->
+    
+    <div class="container">
+      <a href="#" class="logo">Portf<span>olio.</span></a>
+      <p class="text">&copy; Copyright 2023. All rights reserved</p>
+      <ul class="social-media">
+        <li>
+          <a href="#" class="social-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <i class="uil uil-dribbble"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JavaScript Files -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+  <script src="./js/mixitup.min.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/bd.js"></script>
+  <!-- <script src="./js/lang.js"></script> -->
+</body>
+
+</html>
